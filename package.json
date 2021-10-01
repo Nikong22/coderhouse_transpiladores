@@ -1,0 +1,25 @@
+{
+  "name": "prueba10",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "ServerES6toJS5": "node_modules/.bin/babel server.es6.js -o server.js",
+    "ServerTStoJS5": "tsc server.ts",
+    "StartServer": "node server.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.7.0",
+    "ejs": "^3.1.6",
+    "express": "^4.17.1",
+    "express-handlebars": "^5.3.3",
+    "nodemon": "^2.0.12",
+    "pug": "^3.0.2",
+    "socket-io": "^1.0.0",
+    "socket.io": "^4.2.0",
+    "socket.io-client": "^4.2.0"
+  }
+}
